@@ -1,5 +1,5 @@
 # Use slim python image to save space (ECR Free Tier is 500MB/month)
-FROM python:3.9-slim
+FROM public.ecr.aws/lambda/python:3.12
 
 # Set working directory
 WORKDIR /var/task
