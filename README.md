@@ -1,14 +1,13 @@
 Serverless Data Pipeline (AWS Free Tier)
 
-Prerequisites
-
+Prerequisites:
 AWS Account (Free Tier eligible).
 
 GitHub Repository containing these files.
 
 Terraform and Docker installed locally (optional, if you want to test locally).
 
-Setup Instructions
+Setup Instructions:
 
 Step 1: AWS Secrets
 
