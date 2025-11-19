@@ -15,7 +15,6 @@ Go to your GitHub Repository -> Settings -> Secrets and Variables -> Actions.
 Add the following Repository Secrets:
 
 AWS_ACCESS_KEY_ID: Your AWS Access Key.
-
 AWS_SECRET_ACCESS_KEY: Your AWS Secret Key.
 
 Step 2: The "Chicken and Egg" Problem
@@ -46,9 +45,15 @@ Go to the AWS Console > Lambda. Find data-pipeline-demo-function.
 
 Click Test -> Create a new test event -> Save -> Test.
 
+<img width="1404" height="732" alt="Screenshot 2025-11-19 at 6 11 56 PM" src="https://github.com/user-attachments/assets/d72b43d9-93f6-451f-b420-8d4a4d39873f" />
+
+
 Go to AWS Console > S3. Open the bucket data-pipeline-demo-storage-....
 
 You should see a folder raw/YYYY-MM-DD/ containing your JSON data!
+
+<img width="1281" height="182" alt="Screenshot 2025-11-19 at 6 12 41 PM" src="https://github.com/user-attachments/assets/2040d66e-1e51-4161-95bd-2da0f756e693" />
+
 
 Cost Management (Free Tier)
 
